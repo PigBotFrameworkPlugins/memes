@@ -1,0 +1,40 @@
+[{
+    "content": "添加快捷表情 ",
+    "usage": "添加快捷表情 <触发关键词> <图片>",
+    "promise": "anyone",
+    "eval": "memes.add()",
+    "description": "添加快捷表情",
+    "mode": "表情包增强",
+    "isHide": 0,
+    "type": "command"
+},
+{
+    "content": "MessageListener",
+    "usage": "MessageListener",
+    "promise": "anyone",
+    "eval": "memes.messageListener()",
+    "description": "MessageListener",
+    "mode": "表情包增强",
+    "isHide": 0,
+    "type": "message"
+},
+{
+    "content": "删除快捷表情 ",
+    "usage": "删除快捷表情 <关键词>",
+    "promise": "anyone",
+    "eval": "memes.rmMemes()",
+    "description": "删除快捷表情",
+    "mode": "表情包增强",
+    "isHide": 0,
+    "type": "command"
+},
+{
+    "content": "快捷表情列表",
+    "usage": "快捷表情列表",
+    "promise": "anyone",
+    "eval": "memes.listMemes()",
+    "description": "列出您的快捷表情",
+    "mode": "表情包增强",
+    "isHide": 0,
+    "type": "command"
+}]
